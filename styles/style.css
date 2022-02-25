@@ -22,6 +22,10 @@ h2 {
    font-style: italic;
 }
 
+nav {
+  background-color: #57a3ee;
+  }
+
 nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
