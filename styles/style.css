@@ -56,9 +56,6 @@ nav ul li:nth-child(1n) a {
 }
 
 
-
-
-
 .first {
   grid-column: 1 / span 1;
   grid-row: 1;
@@ -99,3 +96,17 @@ p {
   grid-column: 3;
   grid-row: 2;
 }
+
+.first {
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
+}
+
+.second {
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
+}
+
+.third {
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
