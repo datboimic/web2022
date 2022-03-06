@@ -22,16 +22,26 @@ h2 {
    font-style: italic;
 }
 
+h2 a {
+  color: #57A3EE;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
+
+
 nav {
   background-color: #57a3ee;
   }
 
 nav ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  justify-items: center;
-  list-style-type: none;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+  }
 
 nav ul li {
   background-color: #57A3EE;
@@ -56,26 +66,12 @@ nav ul li:nth-child(1n) a {
 }
 
 
-.first {
-  grid-column: 1 / span 1;
-  grid-row: 1;
-}
-
-.second {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.third {
-  grid-column: 3;
-  grid-row: 1;
-}
-
 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
 }
+
 
 p {
   font-size: 1rem;
