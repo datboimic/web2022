@@ -28,6 +28,7 @@ h2 a {
 }
 
 h2 a:hover {
+  color: #57A3EE;
   text-decoration: none;
 }
 
