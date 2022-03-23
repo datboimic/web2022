@@ -111,5 +111,71 @@ p {
 }
 
 .third {
-      border: 2px solid #000;
-      box-shadow: 10px 10px #57A3EE;
+     border: 2px solid #000;
+     box-shadow: 10px 10px #57A3EE;
+}
+
+.wrapper {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 90px;
+       grid-auto-rows: minmax(100px, auto);
+}
+
+.ninth {
+     grid-column: 1;
+     grid-row: 1;
+     border: 2px solid #000;
+     box-shadow: 10px 10px #57A3EE;
+  }
+.tenth {
+     grid-column: 1;
+     grid-row: 2;
+     border: 2px solid #000;
+     box-shadow: 10px 10px #57A3EE;
+  }
+.ninthone {
+     grid-column: 2;
+     grid-row: 1;
+     font-size: 1.4rem;
+     padding: 1rem;
+}
+
+.tenthone {
+        grid-column: 2;
+        grid-row: 2;
+        font-size: 1.4rem;
+        padding: 1rem;
+}
+.wrappertwo {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 90px;
+       grid-auto-rows: minmax(100px, auto);
+}
+
+.thingo {
+     grid-column: 1;
+     grid-row: 1;
+     border: 2px solid #000;
+     box-shadow: 10px 10px #57A3EE;
+         }
+.thingt {
+     grid-column: 1;
+     grid-row: 2;
+     border: 2px solid #000;
+     box-shadow: 10px 10px #57A3EE;
+}
+
+.thingone {
+     grid-column: 2;
+     grid-row: 1;
+     font-size: 1.4rem;
+     padding: 1rem;
+}
+
+.thingtwo {
+        grid-column: 2;
+        grid-row: 2;
+        font-size: 1.4rem;
+        padding: 1rem;
