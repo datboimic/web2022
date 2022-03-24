@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gaming Form</title>
+
+    <style>
+
+    .basic-form label {
+      font-weight: bold;
+        }
+    .platform label {
+      font-weight: bold;
+            }
+    .basic-form input {
+      display: flex;
+      font-size: 100%;
+      width: 200px;
+      background-color: grey;
+    }
+
+    .pc {
+      color: #fbd38c;
+    }
+
+    .xbox {
+      color: #107C10;
+    }
+
+    .playstation {
+      color: #003791;
+    }
+
+    textarea {
+       font-weight: bold;
+    }
+
+    .basicbutton {
+     padding: 3px 15px 3px 15px;
+     font-weight: bold;
+     font-size: 1rem;
+    </style>
+    <h1>Video Game Give Away</h1>
+
+    <h2>Enter your information</h2>
+
+    <form action="scripts/action.php" method="post" class="basic-form">
+        <label for="name">Your name: </label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for="email">Your Gamertag: </label>
+        <input type="text" name="gamertag" id="gamertag" required>
+        <br>
+        <label for="email">Your Account Name: </label>
+        <input type="text" name="email" id="account" required>
+        <br>
+        <label for="email">Your Account Email: </label>
+        <input type="text" name="accountemail" id="accountemail" required>
+        <br>
+    </form>
+
+    <h2>Chose your platfrom</h2>
+
+    <form action="scripts/action.php" method="get" class="platform">
+      <fieldset>
+        <input type="radio" name="pc" id="pc">
+        <label for="pc" class="pc">PC</label><br/>
+
+        <input type="radio" name="xbox" id="xbox" class="xbox">
+        <label for="xbox" class="xbox">Xbox Series X</label><br/>
+
+        <input type="radio" name="playstation" id=playstation class="playstation">
+        <label for="playstation" class="playstation">PS5</label>
+      </fieldset>
+    </form>
+
+    <h2>What do you want to win this video game?</h2>
+
+        <form action="scripts/action.php" method="post">
+          <textarea name="feedback" id="feedback" rows="5" cols="90"></textarea>
+          <br><br>
+        </form>
+  <input type="submit" value="Submit" class="basicbutton">
