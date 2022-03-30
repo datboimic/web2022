@@ -135,17 +135,18 @@ p {
      box-shadow: 10px 10px #57A3EE;
   }
 .ninthone {
-     grid-column: 2;
+     grid-column: 2 / span 2;
      grid-row: 1;
      font-size: 1.4rem;
      padding: 1rem;
 }
 
 .tenthone {
-        grid-column: 2;
+        grid-column: 2 / span 2;
         grid-row: 2;
         font-size: 1.4rem;
         padding: 1rem;
+
 }
 .wrappertwo {
        display: grid;
@@ -168,14 +169,14 @@ p {
 }
 
 .thingone {
-     grid-column: 2;
+     grid-column: 2 / span 2;
      grid-row: 1;
      font-size: 1.4rem;
      padding: 1rem;
 }
 
 .thingtwo {
-        grid-column: 2;
+        grid-column: 2 / span 2;
         grid-row: 2;
         font-size: 1.4rem;
         padding: 1rem;
