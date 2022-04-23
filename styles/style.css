@@ -1,104 +1,103 @@
 html {
-  font-size: 100%;
-
+      font-size: 100%;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  background-color: white;
-  font-family: arial, sans-serif;
+      padding: 0;
+      margin: 0;
+      background-color: white;
+      font-family: arial, sans-serif;
 }
 
 h1 {
-  text-align: center;
-  font-size: 2.5rem;
+      text-align: center;
+      font-size: 2.5rem;
 }
 
 h2 {
-   text-align: center;
-   color: #57A3EE;
-   font-size: 2.0rem;
-   font-style: italic;
+      text-align: center;
+      color: #57A3EE;
+      font-size: 2.0rem;
+      font-style: italic;
 }
 
 h2 a {
-  color: #57A3EE;
-  text-decoration: none;
+      color: #57A3EE;
+      text-decoration: none;
 }
 
 h2 a:hover {
-  color: #57A3EE;
-  text-decoration: none;
+      color: #57A3EE;
+      text-decoration: none;
 }
 
-
 nav {
-  background-color: #57a3ee;
+      background-color: #57a3ee;
   }
 
 nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style-type: none;
   }
 
 nav ul li {
-  background-color: #57A3EE;
-  border: 1px solid #57A3EE;
-  padding: 1em 4em;
-  font-size: 1.2rem;
-  font-weight: bold;
+      background-color: #57A3EE;
+      border: 1px solid #57A3EE;
+      padding: 1em 4em;
+      font-size: 1.2rem;
+      font-weight: bold;
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
+      color: #fff;
+      text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #000;
-  text-decoration: none;
-}
-nav ul li:nth-child(1n) a {
-  padding: 1em 4em;
-  font-weight: bold;
+      color: #000;
+      text-decoration: none;
 }
 
+nav ul li:nth-child(1n) a {
+      padding: 1em 4em;
+      font-weight: bold;
+}
 
 section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-template-rows: auto;
-  gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-template-rows: auto;
+      gap: 10px;
+}
 
+.main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.mainone {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#main p {
+      font-size: 1.4rem;
+      text-align: center;
 }
 
 div {
-  margin: 5rem 5rem 5rem 5rem;
-  text-align: center;
+      margin: 5rem 5rem 5rem 5rem;
+      text-align: center;
 }
 
 p {
-  font-size: 1rem;
-  padding: 1rem;
+      font-size: 1rem;
+      padding: 1rem;
 }
 
-.one {
-  grid-column: 1 / span 1;
-  grid-row: 2;
-}
-
-.two {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.three {
-  grid-column: 3;
-  grid-row: 2;
-}
 
 .first {
       border: 2px solid #000;
@@ -116,43 +115,108 @@ p {
 }
 
 .wrapper {
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
-       gap: 90px;
-       grid-auto-rows: minmax(100px, auto);
+      padding-left: 10px;
+      padding-right: 80px;
 }
 
 .ninth {
-     grid-column: 1;
-     grid-row: 1;
-     border: 2px solid #000;
-     box-shadow: 10px 10px #57A3EE;
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
   }
+
 .tenth {
-     grid-column: 1;
-     grid-row: 2;
-     border: 2px solid #000;
-     box-shadow: 10px 10px #57A3EE;
-  }
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
+}
+
+.wrapperok {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#wrapperok p {
+      font-size: 1.4rem;
+      text-align: center;
+}
+
 .ninthone {
-     grid-column: 2 / span 2;
-     grid-row: 1;
-     font-size: 1.4rem;
-     padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+}
+
+.precision {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#precision p {
+      font-size: 1.4rem;
+      text-align: center;
 }
 
 .tenthone {
-        grid-column: 2 / span 2;
-        grid-row: 2;
-        font-size: 1.4rem;
-        padding: 1rem;
-
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
 }
+
+.laptop {
+      padding-left:10px;
+      padding-right: 80px;
+}
+
+.asus {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#asus p {
+      font-size: 1.4rem;
+      text-align: center;
+}
+
+.laptopone {
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
+  }
+
+.laptoptwo {
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
+}
+
+.laptopthree {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+}
+
+.laptopfour {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+}
+
+.nvidia {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#nvidia p {
+      font-size: 1.4rem;
+      text-align: center;
+}
+
 .wrappertwo {
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
-       gap: 90px;
-       grid-auto-rows: minmax(100px, auto);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 90px;
+      grid-auto-rows: minmax(100px, auto);
 }
 
 .thingo {
@@ -160,7 +224,8 @@ p {
      grid-row: 1;
      border: 2px solid #000;
      box-shadow: 10px 10px #57A3EE;
-         }
+}
+
 .thingt {
      grid-column: 1;
      grid-row: 2;
@@ -173,10 +238,4 @@ p {
      grid-row: 1;
      font-size: 1.4rem;
      padding: 1rem;
-}
-
-.thingtwo {
-        grid-column: 2 / span 2;
-        grid-row: 2;
-        font-size: 1.4rem;
-        padding: 1rem;
+ }
