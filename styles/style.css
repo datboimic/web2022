@@ -89,13 +89,13 @@ section {
 }
 
 div {
-      margin: 5rem 5rem 5rem 5rem;
+      margin: 2rem 2rem 2rem 2rem;
       text-align: center;
 }
 
 p {
       font-size: 1rem;
-      padding: 1rem;
+
 }
 
 
@@ -122,6 +122,7 @@ p {
 .ninth {
       border: 2px solid #000;
       box-shadow: 10px 10px #57A3EE;
+
   }
 
 .tenth {
@@ -212,30 +213,100 @@ p {
       text-align: center;
 }
 
-.wrappertwo {
+.accessories {
+      padding-left:10px;
+      padding-right: 80px;
+}
+
+.tuf {
+      padding: 10px;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 90px;
-      grid-auto-rows: minmax(100px, auto);
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-.thingo {
-     grid-column: 1;
-     grid-row: 1;
-     border: 2px solid #000;
-     box-shadow: 10px 10px #57A3EE;
+#tuf p {
+      font-size: 1.4rem;
+      text-align: center;
 }
 
-.thingt {
-     grid-column: 1;
-     grid-row: 2;
-     border: 2px solid #000;
-     box-shadow: 10px 10px #57A3EE;
-}
+.monitorone {
+      border: 2px solid #000;
+      box-shadow: 10px 10px #57A3EE;
+  }
 
-.thingone {
-     grid-column: 2 / span 2;
-     grid-row: 1;
-     font-size: 1.4rem;
-     padding: 1rem;
- }
+.monitoronee {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+.pro {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+#pro p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+.monitortwo {
+    border: 2px solid #000;
+    box-shadow: 10px 10px #57A3EE;
+    }
+
+.monitortwoo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+
+.accessoriestwo {
+    padding-left:10px;
+    padding-right: 80px;
+    }
+
+.fhd {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+#fhd p {
+    font-size: 1.4rem;
+    text-align: center;
+    }
+
+.monitorthree {
+    border: 2px solid #000;
+    box-shadow: 10px 10px #57A3EE;
+      }
+
+.monitorthreee {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+      }
+
+.hp {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+     }
+
+#hp p {
+    font-size: 1.4rem;
+    text-align: center;
+     }
+
+.monitorfour {
+    border: 2px solid #000;
+    box-shadow: 10px 10px #57A3EE;
+    }
+
+.monitorfourr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
